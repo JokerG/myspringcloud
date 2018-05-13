@@ -11,7 +11,7 @@
 
     <groupId>com.joker.springcloud</groupId>
     <artifactId>myspringcloud-eureka-client</artifactId>
-    <description>服务注册中心</description>
+    <description>服务提供方</description>
 
     <dependencies>
         <dependency>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency> 
+        </dependency>
     </dependencies>
 
 </project>

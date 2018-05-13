@@ -11,7 +11,7 @@
 
     <groupId>com.joker.springcloud</groupId>
     <artifactId>myspringcloud-consul-client</artifactId>
-    <description>服务治理</description>
+    <description>服务提供方</description>
 
     <dependencies>
         <dependency>
@@ -19,5 +19,5 @@
             <artifactId>spring-cloud-starter-consul-discovery</artifactId>
         </dependency>
     </dependencies>
-
+ 
 </project>

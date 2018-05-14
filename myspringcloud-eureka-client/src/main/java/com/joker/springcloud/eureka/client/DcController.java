@@ -16,4 +16,15 @@ public class DcController {
         System.out.println(services);
         return services;
     }
+
+    @GetMapping("/degrade")
+    public String degrade() {
+        try {
+            //休眠5秒，模拟服务降级
+            Thread.sleep(5000L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "degrade";
+    }
 }

@@ -6,6 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * 开启配置中心
+ * http://localhost:1201/config-client/dev/master 查看配置信息
  */
 @SpringBootApplication
 @EnableConfigServer

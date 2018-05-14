@@ -15,7 +15,7 @@ public class DcController {
     RestTemplate restTemplate;
 
     @RequestMapping("/consumer")
-    public String dv(){
+    public String dc(){
         ServiceInstance serviceInstance = loadBalancerClient.choose("consul-client");
         String url = "http://" + serviceInstance.getHost() + ":" + serviceInstance.getPort() + "/dc";
         System.out.println(url);

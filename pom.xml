@@ -17,6 +17,8 @@
         <module>myspringcloud-config-server-git</module>
         <module>myspringcloud-config-client</module>
         <module>myspringcloud-eureka-consumer-ribbon-hystrix</module>
+        <module>myspringcloud-hystrix-dashboard</module>
+        <module>myspringcloud-turbine</module>
     </modules>
     <packaging>pom</packaging>
 

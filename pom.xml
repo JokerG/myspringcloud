@@ -9,6 +9,7 @@
     <modules>
         <module>myspringcloud-eureka-server</module>
         <module>myspringcloud-eureka-client</module>
+        <module>myspringcloud-eureka-client1</module>
         <module>myspringcloud-consul-client</module>
         <module>myspringcloud-eureka-consumer</module>
         <module>myspringcloud-consul-consumer</module>

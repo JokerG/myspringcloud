@@ -12,7 +12,7 @@ public class DcController {
 
     @GetMapping("/dc")
     public String dc() {
-        String services = "[Eureka-Client] Services: " + discoveryClient.getServices();
+        String services = "[Eureka-Client-1] Services: " + discoveryClient.getServices();
         System.out.println(services);
         return services;
     }

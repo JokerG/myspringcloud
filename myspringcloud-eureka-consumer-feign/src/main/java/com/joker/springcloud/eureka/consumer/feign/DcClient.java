@@ -1,6 +1,8 @@
 package com.joker.springcloud.eureka.consumer.feign;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
@@ -8,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  *同时整合了Hystrix来实现服务的容错保护
  *
  */
-@FeignClient("eureka-client")
+@FeignClient(value = "eureka-client",fallback = DcFallBack.class)
 public interface DcClient {
     @GetMapping("/dc")
     String dc();

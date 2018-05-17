@@ -20,6 +20,7 @@
         <module>myspringcloud-eureka-consumer-ribbon-hystrix</module>
         <module>myspringcloud-hystrix-dashboard</module>
         <module>myspringcloud-turbine</module>
+        <module>myspringcloud-api-gateway</module>
     </modules>
     <packaging>pom</packaging>
 
